@@ -1,0 +1,24 @@
+.comp{
+  &__title{
+    font-family: 'Futura PT';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #FFFFFF;
+  }  
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__wrap-text{
+      width: 569px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);
+    
+  }
+}
