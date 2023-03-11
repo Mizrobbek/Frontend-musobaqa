@@ -310,45 +310,101 @@ template {
   display: none;
 }
 
-/* inter-regular - latin */
+/* proximo-nova-regular - latin */
 @font-face {
   font-display: swap;
-  font-family: "Inter";
+  font-family: "Proximo Nova";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../fonts/inter-v12-latin-regular.woff") format("woff");
+  src: url("../fonts/Fontspring-DEMO-proximanova-regular.woff2") format("woff2"), url("../fonts/Fontspring-DEMO-proximanova-regular.woff") format("woff");
 }
-/* inter-500 - latin */
+/* proximo-nova-regular - latin */
 @font-face {
   font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/inter-v12-latin-500.woff2") format("woff2"), url("../fonts/inter-v12-latin-500.woff") format("woff");
+  font-family: "Proximo Nova";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Fontspring-DEMO-proximanova-regularit.woff") format("woff"), url("../fonts/Fontspring-DEMO-proximanova-regularit.woff2") format("woff2");
 }
-/* inter-600 - latin */
+/* proximo-nova-semibold - latin */
 @font-face {
   font-display: swap;
-  font-family: "Inter";
+  font-family: "Proximo Nova";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Fontspring-DEMO-proximanova-semiboldit.woff") format("woff"), url("../fonts/Fontspring-DEMO-proximanova-semiboldit.woff2") format("woff2");
+}
+/* proximo-nova-semibold - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Proximo Nova";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/inter-v12-latin-600.woff2") format("woff2"), url("../fonts/inter-v12-latin-600.woff") format("woff");
+  src: url("../fonts/Fontspring-DEMO-proximanova-semibold.woff") format("woff"), url("../fonts/Fontspring-DEMO-proximanova-semibold.woff2") format("woff2");
 }
-/* inter-700 - latin */
+/* proximo-nova-bold - latin */
 @font-face {
   font-display: swap;
-  font-family: "Inter";
+  font-family: "Proximo Nova";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/inter-v12-latin-700.woff2") format("woff2"), url("../fonts/inter-v12-latin-700.woff") format("woff");
+  src: url("../fonts/Fontspring-DEMO-proximanova-bold.woff") format("woff"), url("../fonts/Fontspring-DEMO-proximanova-bold.woff2") format("woff2");
 }
-/* inter-800 - latin */
+/* proximo-gilroy-semibold - latin */
 @font-face {
   font-display: swap;
-  font-family: "Inter";
+  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/inter-v12-latin-800.woff2") format("woff2"), url("../fonts/inter-v12-latin-800.woff") format("woff");
+  font-weight: 600;
+  src: url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.woff2") format("woff2");
+}
+/* proximo-gilroy-regulary - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
+}
+/* proximo-gilroy-medium - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+}
+/* nunito-sans-semibold - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff"), url("../fonts/NunitoSans-SemiBold.woff2") format("woff2");
+}
+/* nunito-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff"), url("../fonts/NunitoSans-Regular.woff2") format("woff2");
+}
+/* future-pt-400 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Future PT";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Futura XBlk BT.woff") format("woff"), url("../fonts/Futura XBlk BT.woff2") format("woff2");
+}
+/* future-pt-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Future PT";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/futura medium bt.woff") format("woff"), url("../fonts/futura medium bt.woff2") format("woff2");
 }
 *,
 *::after,
