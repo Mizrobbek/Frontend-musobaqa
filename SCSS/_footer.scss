@@ -32,7 +32,13 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 25px;
+    transition: all 0.3s ease;
     color: #ffffff;
+  }
+
+  &_loc-link:hover {
+    color: #4212ec;
+    transition: all 0.3s ease;
   }
 
   &_list-item {

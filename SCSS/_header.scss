@@ -8,12 +8,18 @@
     justify-content: space-between;
   }
 
-  &_link {
+  &_logo-link {
     padding: 15px 0;
     font-weight: 500;
     font-size: 30px;
     line-height: 50px;
     color: #ffffff;
+    transition: all 0.3s ease;
+  }
+
+  &_logo-link:hover {
+    scale: 1.2;
+    transition: all 0.3s ease;
   }
 
   &_nav-list {
@@ -26,8 +32,14 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-
     color: #ffffff;
+    transition: all 0.3s ease;
+  }
+
+  &_nav-list-link:hover {
+    color: #1bebbe;
+    scale: 1.05;
+    transition: all 0.3s ease;
   }
 
   &_info {
@@ -44,8 +56,14 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-
     color: #ffffff;
+    transition: all 0.3s ease;
+  }
+
+  &_contact:hover {
+    color: #1bebbe;
+    scale: 1.05;
+    transition: all 0.3s ease;
   }
 
   &_mail {
@@ -53,6 +71,13 @@
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
+    transition: all 0.3s ease;
+  }
+
+  &_mail:hover {
+    color: #1bebbe;
+
+    transition: all 0.3s ease;
   }
 
   &_btn {
@@ -65,6 +90,12 @@
     line-height: 19px;
     text-align: center;
     color: white;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
+  }
+
+  &_btn:hover {
+    background: #951cf1;
+    transition: all 0.3s ease-in-out;
   }
 }
