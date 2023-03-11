@@ -1,5 +1,19 @@
 .hero {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 160px;
+    background-image: url("../IMG/blur-top.png"), url("../IMG/blur-bot.png"), url("../IMG/bg-hero.png");
+    background-repeat: no-repeat;
+    background-position: top right, bottom left, center;
+    background-size: auto, auto, cover;
 
+    &__title {
+        font-family: $fontnova;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
 }

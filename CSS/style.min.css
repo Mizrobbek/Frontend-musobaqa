@@ -471,17 +471,24 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 .header_logo-link {
+=======
+.header_link {
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
   padding: 15px 0;
   font-weight: 500;
   font-size: 30px;
   line-height: 50px;
   color: #ffffff;
+<<<<<<< HEAD
   transition: all 0.3s ease;
 }
 .header_logo-link:hover {
   scale: 1.2;
   transition: all 0.3s ease;
+=======
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 }
 .header_nav-list {
   display: flex;
@@ -493,12 +500,15 @@ ul {
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
+<<<<<<< HEAD
   transition: all 0.3s ease;
 }
 .header_nav-list-link:hover {
   color: #1bebbe;
   scale: 1.05;
   transition: all 0.3s ease;
+=======
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 }
 .header_info {
   display: flex;
@@ -513,23 +523,29 @@ ul {
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
+<<<<<<< HEAD
   transition: all 0.3s ease;
 }
 .header_contact:hover {
   color: #1bebbe;
   scale: 1.05;
   transition: all 0.3s ease;
+=======
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 }
 .header_mail {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+<<<<<<< HEAD
   transition: all 0.3s ease;
 }
 .header_mail:hover {
   color: #1bebbe;
   transition: all 0.3s ease;
+=======
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 }
 .header_btn {
   padding: 13px 21px;
@@ -541,6 +557,7 @@ ul {
   line-height: 19px;
   text-align: center;
   color: white;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -558,20 +575,35 @@ main {
   padding-bottom: 95px;
 }
 .comp_title {
+=======
+  cursor: pointer;
+}
+
+.main_comp_title {
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
   font-family: "Futura PT";
   font-weight: 600;
   font-size: 50px;
   line-height: 64px;
   color: #ffffff;
+<<<<<<< HEAD
   margin-bottom: 20px;
   padding-top: 120px;
 }
 .comp_wrap {
+=======
+}
+.main_comp_wrap {
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
 .comp_wrap-text {
+=======
+.main_comp_wrap-text {
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
   width: 569px;
   font-family: "Futura PT";
   font-style: normal;
@@ -580,6 +612,7 @@ main {
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
 }
+<<<<<<< HEAD
 .comp_list {
   display: grid;
   gap: 30px;
@@ -666,6 +699,8 @@ main {
   line-height: 22px;
   color: #ffffff;
 }
+=======
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 
 .footer {
   background: rgba(14, 16, 20, 0.9);
@@ -699,6 +734,7 @@ main {
   font-weight: 600;
   font-size: 16px;
   line-height: 25px;
+<<<<<<< HEAD
   transition: all 0.3s ease;
   color: #ffffff;
 }
@@ -706,6 +742,10 @@ main {
   color: #4212ec;
   transition: all 0.3s ease;
 }
+=======
+  color: #ffffff;
+}
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 .footer_list-item {
   display: flex;
   align-items: center;
@@ -727,5 +767,22 @@ main {
 
 .hero {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-top: 160px;
+<<<<<<< HEAD
+=======
+  background-image: url("../IMG/blur-top.png"), url("../IMG/blur-bot.png"), url("../IMG/bg-hero.png");
+  background-repeat: no-repeat;
+  background-position: top right, bottom left, center;
+  background-size: auto, auto, cover;
+}
+.hero__title {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+>>>>>>> 412eab219824294de55716b927eba26865e7e268
 }/*# sourceMappingURL=style.min.css.map */
