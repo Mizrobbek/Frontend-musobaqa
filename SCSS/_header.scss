@@ -5,6 +5,7 @@
   &_content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   &_link {
@@ -17,5 +18,43 @@
 
   &_nav-list {
     display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &_nav-list-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+
+  &_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_contact {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+
+  &_mail {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  &_btn {
+    padding: 13px 21px;
+    background: #6911ad;
+    border-radius: 7px;
+    border: none;
   }
 }
