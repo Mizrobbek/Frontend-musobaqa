@@ -7,12 +7,8 @@
     <title>Document</title>    
     <link rel="stylesheet" href="./CSS/style.min.css">
   </head>
-  <body>
-    
 
-    <link rel="stylesheet" href="./CSS/style.min.css" />
-  </head>
-  <body>
+  <body id="body">
     <header class="header">
       <div class="container header_content">
         <a class="header_link" href="./index.html">Logo</a>
@@ -34,9 +30,12 @@
         </nav>
 
         <div class="header_info">
-          <button></button>
-
           <div>
+            <input type="checkbox" id="theme" hidden>
+            <label class="theme" for="theme"></label>
+          </div>
+
+          <div class="header_information">
             <a class="header_contact" href="tel:+998 90 777-77-77"
               >+998 90 777-77-77</a
             >
@@ -45,7 +44,7 @@
             >
           </div>
 
-        <button>Заказать звонок</button>
+        <button class="header_btn">Заказать звонок</button>
       </div>
     </header>
 
@@ -79,5 +78,49 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container footer_content">
+        <a class="footer_link" href="./index.html">LOGO</a>
+
+        <div class="footer_loc">
+          <img class="footer_loc-img" src="./IMG/location.svg" alt="Location">
+          <a class="footer_loc-link" href="#">Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.
+            Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</a>
+        </div>
+
+        <ul class="footer_list">
+          <li class="footer_list-item">
+            <img class="footer_list-phone-img" src="./IMG/phone.svg" alt="Phone">
+            <a class="footer_list-number" href="tel:+998 99 999 99 99">+998 99 999 99 99</a>
+          </li>
+          <li class="footer_list-item">
+            <img class="footer_list-phone-img" src="./IMG/phone.svg" alt="Phone">
+            <a class="footer_list-number" href="tel:+998 99 999 99 99">+998 99 999 99 99</a>
+          </li>
+        </ul>
+
+        <ul class="footer_list-social">
+          <li class="footer_list-social-item">
+            <a class="footer_list-social-link" href="https://t.me/">
+              <img class="footer_list-social-img" src="./IMG/telegram.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="footer_list-social-link" href="https://facebook.com/">
+              <img class="footer_list-social-img" src="./IMG/fb.svg" alt="Instagram">
+            </a>
+          </li>
+          <li>
+            <a class="footer_list-social-link" href="https://instagram.com/">
+              <img class="footer_list-social-img" src="./IMG/insta.svg" alt="Instagram">
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
